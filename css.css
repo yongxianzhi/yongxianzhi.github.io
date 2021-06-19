@@ -1,0 +1,93 @@
+.logo{margin-left: 580px;
+      width: 400px}
+		.search{
+			float: right;           /*搜索框靠左*/
+		    margin: 30px;
+			margin-right: 200px;
+			margin-top: 10px;
+		       }           /*页边距*/
+
+		.nav{
+            width: 1000px;          /*导航栏整体样式居中*/
+            height: 50px;
+            position:absolute;
+            z-index: 2;
+            margin-left:280px;
+			margin-top: 80px;
+            background:#575454;
+            }
+
+        .nav ul{                        /*网站首页样式*/   
+            list-style: none;
+			padding-left: 100px;
+            }
+
+        .nav ul li{                      /*高考数据样式*/ 
+            float: left;
+            padding-left: 0px;
+            padding-top: 0px;
+            margin: -5px 20px 0 10px;
+            }
+
+        .nav ul li a{                     /*企业校招数据样式*/ 
+            color: #ffffff;
+            text-decoration: none;
+            display: block;
+            font-size: 20px;
+            line-height: 40px;
+            text-shadow: 10px 10px 50px #fff;
+            padding-right: 6px;
+            }
+
+        .nav ul li:hover{                /*行业精英样式*/ 
+            color: #fff; 
+            background: #3776C6;
+            transition: 0.5s;
+            }
+
+        .nav ul li a:hover{                 /*国民文化程度样式*/        
+            color: #000000;
+            }
+
+        .nav ul li ul{                       /*留言样式*/ 
+           padding-left: 0px;
+           margin-left: 0px;
+            }
+
+        .nav ul li ul li{                    
+           display: none;
+           float: inherit;
+           font-size: 20px;
+         }
+
+        .nav ul li:hover ul li{                
+           display: block;
+           border-top: 1px solid rgba(158,54,56,1.00);
+         }
+
+        .nav ul li ul li:hover{   /*下划线颜色*/
+          background: #D9530B;
+          }
+
+        .nav ul li ul li a:hover{  /*导航栏背景颜色*/
+           background: #3776c6;
+           }
+
+		.th {
+			background-color: #10AAEE}  /*表头颜色*/
+		.linegrey {
+			background-color:#F2F2F2}   /*灰色行颜色*/
+		.shouzi {
+			background-color: #FFFFFF}   /*首字列颜色*/
+        body{background-image: url("6576d369019e44aebf696bb10d4ab6e2.jpeg"
+		     );
+			 background-repeat: no-repeat;
+			background-position: center;
+			background-size: 135%;
+	
+}
+.big{width: 800px;
+     hight1:500px;
+     margin-left: 100px}
+body a {cursor:url("201918340434-zhangwenhao-1105-.ico")auto;}
+a:hover,a:active {background-color:#B1B387}
